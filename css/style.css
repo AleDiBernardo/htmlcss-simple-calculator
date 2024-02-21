@@ -30,6 +30,10 @@
     background-color: #77A8B0;
 }
 
+.grey-bg {
+    background-color: #BBBBBB;
+}
+
 input {
     border-radius: 20px;
 }
@@ -120,7 +124,6 @@ input {
     height: 100px;
     font-size: 50px;
     cursor: grab;
-    background-color: #BBBBBB;
 }
 
 /* Function Btn Style */
