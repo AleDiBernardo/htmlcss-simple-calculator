@@ -1,13 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!-- Custom Style -->
     <link rel="stylesheet" href="css/style.css">
+
+    <!-- Custom Font -->
+    <link href="https://fonts.cdnfonts.com/css/seven-segment" rel="stylesheet">
     <title>Boosio Calculator</title>
 </head>
+
 <body>
     <main class="flex main-container">
         <div class="flex container">
@@ -17,8 +22,30 @@
             <div class="flex calc-display">
                 <span>0</span>
             </div>
-            <div class="calc-bottom bd-radius"></div>
+            <div class="flex calc-bottom bd-radius">
+                <div class="flex left-side">
+                    <input class="num-btn" type="button" value="7">
+                    <input class="num-btn" type="button" value="8">
+                    <input class="num-btn" type="button" value="9">
+                    <input class="num-btn" type="button" value="4">
+                    <input class="num-btn" type="button" value="5">
+                    <input class="num-btn" type="button" value="6">
+                    <input class="num-btn" type="button" value="1">
+                    <input class="num-btn" type="button" value="2">
+                    <input class="num-btn" type="button" value="3">
+                    <input class="zero num-btn" type="button" value="0">
+                    <input class="num-btn" type="button" value="=">
+                </div>
+                <div class="right-side">
+                    <input class="num-btn" type="button" value="C">
+                    <input class="num-btn" type="button" value="+">
+                    <input class="num-btn" type="button" value="-">
+                    <input class="num-btn" type="button" value="x">
+                    <input class="num-btn" type="button" value="/">
+                </div>
+            </div>
         </div>
     </main>
 </body>
+
 </html>

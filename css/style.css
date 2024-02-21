@@ -49,16 +49,14 @@
 /* Display */
 .calc-display {
     background-color: black;
-    padding: 10px;
+    padding: 15px;
     justify-content: end;
-    /* flex-grow: 1; */
-
-
 }
 
 .calc-display span {
     font-size: 80px;
     color: limegreen;
+    font-family: 'seven segment';
 }
 
 /* Bottom */
@@ -70,5 +68,31 @@
 .calc-bottom.bd-radius{
     border-top-left-radius: 0;
     border-top-right-radius: 0;
+}
+
+/* LEFT SIDE */
+
+.left-side {
+    /* debug */
+    /* background-color: red; */
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    
+}
+
+.right-side {
+    /* background-color: blue; */
+}
+
+/* Number Button */
+.num-btn {
+    width: 100px;
+    height: 100px;
+    font-family: monospace;
+    font-size: 20px;
+}
+
+.zero.num-btn {
+    flex-grow: 1;
 }
 
