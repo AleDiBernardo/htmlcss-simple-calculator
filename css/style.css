@@ -30,12 +30,10 @@
     background-color: #77A8B0;
 }
 
-.grey-bg {
-    background-color: #BBBBBB;
-}
 
 input {
     border-radius: 20px;
+    background-color: #BBBBBB;
 }
 
 
