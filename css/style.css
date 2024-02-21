@@ -63,6 +63,7 @@
 .calc-bottom {
     background-color: lightgray;
     flex-grow: 4;
+    padding: 20px;
 }
 
 .calc-bottom.bd-radius{
@@ -77,11 +78,14 @@
     /* background-color: red; */
     flex-wrap: wrap;
     justify-content: space-evenly;
-    
+    flex-grow: 1;
 }
 
 .right-side {
     /* background-color: blue; */
+    justify-content: center;
+    flex-wrap: wrap;
+    /* padding: 10px; */
 }
 
 /* Number Button */
@@ -89,9 +93,19 @@
     width: 100px;
     height: 100px;
     font-family: monospace;
-    font-size: 20px;
+    font-size: 50px;
+    cursor: grab;
+    background-color: lightgray;
 }
 
+.fx-btn {
+    width: 75px;
+    height: 75px;
+    font-size: 40px;
+    font-family: monospace;
+}
+
+/* Zero btn */
 .zero.num-btn {
     flex-grow: 1;
 }
