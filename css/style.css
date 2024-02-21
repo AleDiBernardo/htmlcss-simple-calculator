@@ -6,5 +6,21 @@
 
 body {
     /* debug */
+    /* background-color: red; */
+}
+
+.flex.container {
+    width: 40%;
+    height: 1000px;
     background-color: red;
+}
+
+.flex.main-container {
+    flex-direction:row;
+    justify-content: center;
+}
+
+/*  */
+.flex {
+    display: flex;
 }
