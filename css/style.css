@@ -1,16 +1,41 @@
+
+/* RESETS */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-.flex.container {
-    width: 500px;
-    height: 800px;
-    padding: 20px;
-    flex-direction: column;
+
+/* UTILITIES */
+.flex {
+    display: flex;
+}
+.bd-radius {
+    border-radius: 20px;
+}
+.wht-color {
+    color: white;
 }
 
+.mnspace-font {
+    font-family: monospace;
+}
+
+.orange-bg {
+    background-color: #FF9F0A;
+}
+
+.cyan-bg {
+    background-color: #77A8B0;
+}
+
+input {
+    border-radius: 20px;
+}
+
+
+/* MAIN CONTAINER */
 .flex.main-container {
     flex-direction:column;
     justify-content: center;
@@ -19,20 +44,19 @@
 
 }
 
-/*  */
-.flex {
-    display: flex;
-}
-.bd-radius {
-    border-radius: 20px;
+
+/* CONTAINER */
+.flex.container {
+    width: 550px;
+    height: 850px;
+    padding: 20px;
+    flex-direction: column;
 }
 
 
 /* CALCULATOR */
-
-/* Header */
 .calc-header{
-    background-color: lightgray;
+    background-color: #E9E9E9;
     text-align: center;
     /* flex-grow: 1; */
 
@@ -46,6 +70,7 @@
     border-bottom-right-radius: 0;
 
 }
+
 /* Display */
 .calc-display {
     background-color: black;
@@ -61,7 +86,7 @@
 
 /* Bottom */
 .calc-bottom {
-    background-color: lightgray;
+    background-color: #E9E9E9;
     flex-grow: 4;
     padding: 20px;
 }
@@ -71,8 +96,8 @@
     border-top-right-radius: 0;
 }
 
-/* LEFT SIDE */
 
+/* LEFT SIDE */
 .left-side {
     /* debug */
     /* background-color: red; */
@@ -88,16 +113,17 @@
     /* padding: 10px; */
 }
 
-/* Number Button */
+
+/* BUTTONS */
 .num-btn {
     width: 100px;
     height: 100px;
-    font-family: monospace;
     font-size: 50px;
     cursor: grab;
-    background-color: lightgray;
+    background-color: #BBBBBB;
 }
 
+/* Function Btn Style */
 .fx-btn {
     width: 75px;
     height: 75px;
@@ -105,7 +131,6 @@
     font-family: monospace;
 }
 
-/* Zero btn */
 .zero.num-btn {
     flex-grow: 1;
 }
