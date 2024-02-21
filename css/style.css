@@ -62,8 +62,6 @@ input {
 .calc-header{
     background-color: #E9E9E9;
     text-align: center;
-    /* flex-grow: 1; */
-
 }
 .calc-header img{
     width: 80%;
@@ -103,18 +101,17 @@ input {
 
 /* LEFT SIDE */
 .left-side {
-    /* debug */
-    /* background-color: red; */
     flex-wrap: wrap;
     justify-content: space-evenly;
     flex-grow: 1;
+    row-gap: 3px;
+    column-gap: 20px;
+
 }
 
 .right-side {
-    /* background-color: blue; */
     justify-content: center;
     flex-wrap: wrap;
-    /* padding: 10px; */
 }
 
 
@@ -132,6 +129,7 @@ input {
     height: 75px;
     font-size: 40px;
     font-family: monospace;
+    cursor: grab;
 }
 
 .zero.num-btn {
